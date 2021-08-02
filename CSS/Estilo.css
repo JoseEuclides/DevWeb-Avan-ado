@@ -46,7 +46,7 @@ p{
 
 /*quanto mais espcifico for seu seletor maior será
 a precedencia dele*/
-
+/*
 *{
 	color: red;
 }
@@ -59,4 +59,41 @@ h2.verde{
 }
 h2#amarelo{
 	color: yellow;
+}*/
+
+/**Barra de navegação vertical*/
+/*
+ul{
+	list-style-type:none ;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	padding: 5px 20px;
+	background: url(../Imagens/seta.png) no-repeat left center;
+}*/
+
+/**Menu vertical*/
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul a{
+	width: 200px;
+	height: 40px;
+	display: block;
+	background: url(../Imagens/menu.png) no-repeat left; bottom;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+}
+
+a:hover{
+	background-position: right bottom ;
+	color: #fff;
+
 }
