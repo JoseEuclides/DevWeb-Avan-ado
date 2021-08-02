@@ -1,0 +1,30 @@
+ /* *{ seletores universal*/
+ *{
+/*	border:1px solid red;*/
+}
+/*Seletor de Classe*/
+.verde{
+	/*color: green;*/
+}
+/*todos paragrafos ficam verde*/
+p.verde{
+	/*color: green;*/
+}
+/*Seletor de filho "filho direto"*/
+li>a{
+	/*color: red;
+	text-decoration: none;*/
+}
+
+/*seletor descendente de outro*/
+p a{
+/*	color: red ;*/
+}
+/* irmao adjacente*/
+h1+p{
+	color: red;
+}
+/* irmao geral*/
+h1~p{
+/*	color: pink;*/
+}
