@@ -251,15 +251,16 @@ body{
 	background: #f2f2f2;
 }
 #container{
+
 	/*porcentagem usado para tela responsivo*/
-	width: 85%;/*720px*/
+	width: 960px;/*720px*/
 	margin: 0 auto;
-	background: #fff;
+	background: #fff url(../Imagens/coluna.png) repeat-y left top;
 	/*largura minima*/
 	min-width:820px ;
 }
 #marca{
-	width: 100%;
+	width: 100%; 
 	height: 200px;
 	background: #225992 url(../Imagens/cabecalho2.jpg)no-repeat center;
 	text-align: center;
@@ -278,7 +279,7 @@ body{
 	float: left;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background: #d1d1d1;
+	/*background: #d1d1d1;*/
 }
 #conteudo-principal{
 	width: 64%;/*230px*/
@@ -287,6 +288,8 @@ body{
 img.img-noticia{
 	width: 94%;
 	padding: 2%;
+	max-width: 600px;
+
 }
 
 #conteudo-secundario{
